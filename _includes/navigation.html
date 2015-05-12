@@ -1,6 +1,6 @@
 <ul class="list-unstyled">
   <li class="nav-item">
-    <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="/">Home</a>
+    <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="{{site.baseurl}}/">Home</a>
   </li>
 
   {% assign pages_list = site.pages %}
@@ -14,7 +14,7 @@
     {% endif %}
   {% endfor %}
   <li class="nav-item">
-    <a class="nav-link" href="/about/">Submit a site</a>
+    <a class="nav-link" href="{{site.baseurl}}/about/">Submit a site</a>
   </li>
 </ul>
 
