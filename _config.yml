@@ -8,6 +8,8 @@ exclude:          ["README.md"]
 paginate:         10
 encoding:         UTF-8
 future:           false
-name:             Built With Ember
-url:              http://builtwithember.io
-description:      "Ambitious web applications built using Ember.js."
+name:             Built By Students
+url:              http://bbs.code4puertorico.org
+description:      "Fun and cool projects done by elementry, middle, and high school students."
+author:           Code 4 Puerto Rico
+author_url:       http://code4puertorico.org

@@ -7,15 +7,15 @@
   <meta name="description" content="{{ site.description }}">
   <title>
     {% if page.title == "Home" %}
-      Built With Ember
+      {{ site.name }}
     {% else if %}
-      {{ page.title }} &middot; Built With Ember
+      {{ page.title }} &middot; {{ site.name }}
     {% endif %}
   </title>
 
-  <meta property="og:title" content="Built With Ember"/>
+  <meta property="og:title" content="{{ site.name }}"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://builtwithember.io/"/>
+  <meta property="og:url" content="http://bbs.code4puertorico.org/"/>
   <meta property="og:image" content="{{ site.url }}/img/share-logo.jpg"/>
   <meta property="og:site_name" content="Built With Ember"/>
   <meta property="fb:admins" content="501641940"/>
@@ -26,10 +26,10 @@
 </head>
 <body>
   <div class="main-sidebar">
-    <a href="/"><img src="/img/logo.png" alt="Built With Ember Logo" class="img-responsive"></a>
-    <h1><a href="/" class="site-name">Built With Ember</a></h1>
-    <p class="subtitle">Ambitious web applications built using <a href="http://emberjs.com">Ember.js</a>.</p>
-    <p class="byline">Brought to you by <a href="http://blimp.io">Blimp</a></p>
+    <a href="/"><img src="/img/logo.png" alt="Code 4 Puerto Rico Logo" class="img-responsive"></a>
+    <h1><a href="/" class="site-name">{{ site.name }}</a></h1>
+    <p class="subtitle">{{ site.description }}</p>
+    <p class="byline">Brought to you by <a href="{{ site.author_url }}">{{ site.author }}</a></p>
 
     <hr class="main-sidebar-hr">
 
@@ -39,7 +39,7 @@
 
     <ul class="list-unstyled hidden-xs">
       <li class="nav-item">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://builtwithember.io/" data-text="@BuiltWithEmber: A list of ambitious web applications using @emberjs" data-related="BuiltWithEmber" data-count="none">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bbs.code4puertorico.org/" data-text="@Code4PuertoRico: Awesome projects done by students." data-related="BuiltByStudents" data-count="none">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       </li>
     </ul>
