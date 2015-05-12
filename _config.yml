@@ -2,7 +2,7 @@
 permalink:        pretty
 
 # Settings
-baseurl:          /bbs.code4puertorico.org
+baseurl:          /built-by-students
 markdown:         kramdown
 destination:      ./_gh_pages
 exclude:          ["README.md"]
