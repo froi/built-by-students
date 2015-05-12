@@ -5,4 +5,4 @@ slug: aee-incidents
 source: http://aeeincidents.herokuapp.com
 ---
 
-<img src="/screenshots/aee-incidents.png">
+<img src="{{site.baseurl}}/screenshots/aee-incidents.png">
