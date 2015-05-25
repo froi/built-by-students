@@ -1,11 +1,14 @@
-# [Built With Ember Website](http://builtwithember.io)
+# [Built by Students Website](http://bbs.code4puertorico.org)
 
-A list of ambitious web applications built using [ember.js](http://emberjs.com/).
+A list of awesome projects built by elementry, middle, and high school students.
 
-This project was inspired by a Google Drive spreadsheet that was shared on Twitter sometime ago. We thought that it might be a good idea to have a site listing all the cool projects built using ember.js so we made it.
+This projects was inspired by a teacher who lamented not having a way to show off her students projects. Hearing this we 
+decided to create Built by Students in an effort to provide a place to showcase these projects.
 
 ### Submissions
-We are trying to keep the site submission quality as high as possible. Please only submit real world applications running in production environments. Make sure that you can link to the application directly and no demos or proof-of-concepts. Only finished applications allowed.
+We are trying to keep the site submission quality as high as possible. Please only submit real world applications running in 
+production environments. Make sure that you can link to the application directly and no demos or proof-of-concepts. 
+Only finished applications allowed.
 
 ### How to submit
 To submit a site suggestions, [open an issue](https://github.com/GetBlimp/built-with-ember/issues/new) or create a pull request. Pull requests will be given higher priority since they are easier to include.
